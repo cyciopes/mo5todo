@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.LoginActivity"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:background="@color/splash_background"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/login_text_welcomtext"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/login_domianlogin_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login_switch_label"
+                android:textSize="15sp"
+                android:textColor="#801d1a1a"
+                android:checked="true"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/login_companyname_Wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_input_CorD_domain"
+                android:textColorHint="#801d1a1a"
+                >
+
+                <EditText
+                    android:id="@+id/login_companyname_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textSize="15sp"
+                    android:maxLength="10"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/login_username_Wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_input_user"
+                android:textColorHint="#801d1a1a"
+                >
+
+                <EditText
+                    android:id="@+id/login_username_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:textSize="15sp"
+                    android:maxLength="40"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/login_password_Wrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/login_input_password"
+                android:textColorHint="#801d1a1a"
+                >
+
+                <EditText
+                    android:id="@+id/login_password_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textSize="15sp"
+                    android:maxLength="30"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <Button
+            android:id="@+id/login_btn"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@color/splash_background"
+            android:textColor="@color/button_selector"
+            />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:padding="3sp"
+            >
+            <TextView
+                android:id="@+id/login_appversion_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/login_text_appversion"
+                android:textSize="10sp"
+                android:textIsSelectable="false" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/login_helpprogress_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:onClick="onRemoveClick"
+        android:visibility="gone"
+        />
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+</FrameLayout>

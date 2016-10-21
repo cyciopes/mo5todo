@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text=""
+    android:textColor="@color/form_detail_value"
+    android:gravity="right"
+    android:id="@+id/value"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

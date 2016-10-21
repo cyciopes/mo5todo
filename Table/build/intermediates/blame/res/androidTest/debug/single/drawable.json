@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_bottom.xml",
+        "source": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_left.xml",
+        "source": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_right.xml",
+        "source": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_top.xml",
+        "source": "C:\\Users\\Jim.lee\\AndroidStudioProjects\\MO5Todo\\Table\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_top.xml"
+    }
+]

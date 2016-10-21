@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/line"
+    android:background="@drawable/item_selector"
+    >
+    <net.steamcrafted.materialiconlib.MaterialIconView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:materialIcon="file"
+        android:padding="0dp"
+        app:materialIconColor="@color/colorPrimary"
+        app:materialIconSize="20dp"
+        android:id="@+id/icon"
+        />
+    <TextView
+        android:id="@+id/filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:text=""
+        />
+
+</LinearLayout>
